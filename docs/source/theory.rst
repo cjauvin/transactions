@@ -3,7 +3,7 @@ Theory
 ######
 
 The intent here is to provide some kind of fundamental knowledge with respect
-to bitcoin. 
+to bitcoin.
 
 As a starting point the material here is currently heavily inspired by the
 draft version of the book `Bitcoin and Cryptocurrency Technologies`_ by
@@ -319,7 +319,7 @@ transactions are permanently recorded.
 The ledger is maintained by a trusted authority, Scrooge, who can also issue
 new coins.
 
-A rough sketch of the data structure of the ledger is as follwos;
+A rough sketch of the data structure of the ledger is as follows;
 
 .. code-block:: python
 
@@ -337,7 +337,7 @@ A rough sketch of the data structure of the ledger is as follwos;
 
     ...
 
-The chain of transactions cannot be tempered with because of the use of hash
+The chain of transactions cannot be tampered with because of the use of hash
 pointers. For example, if the content of transaction `1` was changed, the
 pointer in transaction `2` would no longer point to transaction `1`, and the
 chain would be broken.
